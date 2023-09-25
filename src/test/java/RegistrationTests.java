@@ -18,6 +18,8 @@ public class RegistrationTests extends TestBase{
     openRegistrationForm();
     fillRegistrationForm(user);
     submitRegistration();
+
+    logger.info("registrationPositiveTest starts with:" + user.getEmail() + " & " + user.getPassword());
 }
 
 
